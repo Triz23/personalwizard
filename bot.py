@@ -20,7 +20,7 @@ async def on_member_join(member):
     embed.add_field(name="Meet the Staff team!", value="Take a look in <#746058266630553670> to know who are the team that makes our server works!")
     embed.add_field(name="Meet the Server!", value="Are you lost? So take a look in <#745846038157590558> and you will know each channel's function!")
 
-    channel = client.get_channel(750017210881409175)
+    channel = client.get_channel(745692230353682564)
 
     await channel.send(embed=embed)
 
